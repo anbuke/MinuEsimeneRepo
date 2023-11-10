@@ -1,0 +1,9 @@
+let tunnistajad = ["Adam Sandler", "Toby Magyaer", "Brad Pet"]
+let kahtlusalused = ["Ben Afflek ", "Margo Roby", "Rayan Gosling"]
+let alibid = ["Oli tööl", "Filminud Barbys", "mitte surnud filmi lõppu"]
+console.log("Tunnistajad: " + tunnistajad[0], tunnistajad[1], tunnistajad[2])
+console.log("Kahtlusalused: " + kahtlusalused[0], kahtlusalused[1], kahtlusalused[2])
+console.log("Alibid:")
+for( let i = 0; i<3; i= i +1 ){
+  console.log(kahtlusalused[i] + "  "+ alibid[i])
+}
